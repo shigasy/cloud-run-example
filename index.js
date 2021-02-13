@@ -3,8 +3,19 @@ const app = express();
 
 app.get('/', (req, res) => {
   const name = process.env.NAME || 'World';
-  res.send(`Hello ${name}!`);
+  res.send(`Hello!!!!!!!!!!! ${name}!`);
 });
+
+app.get('/users', (req, res) => {
+  const name = process.env.NAME || 'World';
+  res.send(`Hello!🎉!!! ${name}!`);
+});
+
+app.get('/test', (req, res) => {
+  const name = process.env.NAME || 'World';
+  res.send(`test🎉!!! ${name}!`);
+});
+
 
 const port = process.env.PORT || 8080;
 app.listen(port, () => {

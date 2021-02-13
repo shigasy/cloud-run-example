@@ -35,3 +35,8 @@ cloud runにデプロイ
 ```
 gcloud run deploy --image gcr.io/PROJECT-ID/helloworld --platform managed
 ```
+
+### GAE SE
+```
+gcloud app deploy
+```
